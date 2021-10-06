@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
+//Component to create comments
 export default ({ postId }) => {
     const [content, setContent] = useState('');
 
